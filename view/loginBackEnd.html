@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="./js/bootstrap-3.3.7-dist/css/bootstrap.min.css"  crossorigin="anonymous">
+    <!--JQ-->
+    <script src="js/jquery-2.1.4.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="./js/bootstrap-3.3.7-dist/js/bootstrap.min.js"  crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/loginBackEnd.css">
+    <script src="./js/loginBackEnd.js"></script>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <title>平台客服登录</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 title"><h1>教学管理系统</h1></div>
+            <div class="col-md-12">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 draw">
+                    <h1>用户登录</h1>
+                    <form action="" method="post" name="login">
+                        <p>
+                            <span>用户帐号: </span>
+                            <input type="text" name="user" placeholder="请输入账户名"/>
+                        </p>
+                        <p class="worn" id="uworn">请输入您的登录账户！</p>
+                        <p>
+                            <span>登录密码: </span>
+                            <input type="password" name="psd" placeholder="请输入密码">
+                        </p>
+                        <p class="worn" id="pworn">请输入您的登录密码！</p>
+                        <p>
+                            <img src=""  alt="" name="img">
+                        </p>
+                        <p>
+                            <span>验 证 码：</span>
+                            <input id="code" type="text" placeholder="请输入验证码" value="" maxlength="4" name="code">
+                        </p>
+                        <p class="worn" id="cworn">请输入验证码！</p>
+                        <p>
+                            <input type="submit" value="登录" id="loginBtn">
+                        </p>
+                    </form>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
